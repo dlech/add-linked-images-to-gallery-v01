@@ -1,5 +1,5 @@
 === Add Linked Images To Gallery ===
-Contributors: bbqiguana 
+Contributors: bbqiguana, tiefpunkt
 Donate link: http://www.bbqiguana.com/donate/
 Tags: images, gallery, photobloggers, attachments, photo, links, external, photographers, Flickr, save, download
 Requires at least: 2.7
@@ -37,7 +37,7 @@ This plugin is particularly useful for photobloggers, especially those who updat
 
 = How does this plugin work? =
 
-The plugin examines the HTML source of your post when you save it, inspecting each IMG tag, and processing them according to the options you have selected.  
+The plugin examines the HTML source of your post when you save it, inspecting each IMG tag, and processing them according to the options you have selected.
 
 Under the default settings, it will find IMG tags with links to images on other web sites and copy those images to your web site, updating the IMG src to point to your copy.
 
@@ -60,7 +60,7 @@ none
 
 == Changelog ==
 
-= 1.4 = 
+= 1.4 =
 * Updated to fix a bug introduced with WordPress 3.1
 * Default option is now "replace" rather than "custom tag"
 
@@ -74,7 +74,7 @@ none
 = 1.1 =
 * Added a test for DOING_AUTOSAVE to prevent a dowload loop on autosaved drafts
 
-= 1.0.1 = 
+= 1.0.1 =
 * Added require_once for necessary WP library functions
 
 = 1.0 =
